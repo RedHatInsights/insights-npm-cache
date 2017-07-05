@@ -1,6 +1,5 @@
 /*global module, process, require*/
-var path = require('path'),
-    homePath = path.normalize(process.env[(process.platform == 'win32') ? 'USERPROFILE' : 'HOME']);
+const homePath = '/var/cache/npmcache';
 
 module.exports = {
   loggingOpts: {
