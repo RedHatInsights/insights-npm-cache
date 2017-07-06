@@ -9,7 +9,6 @@ VOLUME ["/var/cache/npmcache/cache"]
 EXPOSE 9999
 
 RUN chgrp -R 0 /var/cache/npmcache && chmod -R 777 /var/cache/npmcache
-RUN chgrp -R 0 /var/log && chmod -R 777 /var/log
 
 USER 1000
 COPY config.js /var/cache/npmcache/config.js

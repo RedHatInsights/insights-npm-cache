@@ -16,7 +16,7 @@ module.exports = {
   rejectUnauthorized: true,
 
   // external url to npm_lazy, no trailing /
-  externalUrl: 'http://localhost:9999',
+  externalUrl: process.env.EXTERNAL_URL,
   remoteUrl: 'https://registry.npmjs.com/',
   port: 9999,
   host: '0.0.0.0',
