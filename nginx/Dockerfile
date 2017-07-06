@@ -10,5 +10,4 @@ STOPSIGNAL SIGTERM
 EXPOSE 10000
 
 USER 100
-# CMD /usr/sbin/nginx -g "daemon off;"
 CMD [ "/bin/sh", "/usr/bin/start-it" ]
