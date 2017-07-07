@@ -11,7 +11,7 @@ module.exports = {
 
   cacheDirectory: homePath + '/cache',
   cacheAge: 0,
-  httpTimeout: 1 * 1000,
+  httpTimeout: 15 * 1000,
   maxRetries: 5,
   rejectUnauthorized: true,
 
